@@ -9,7 +9,7 @@ export default class AnimaNumeros {
   }
 
   // Recebe um elemento do dom, com número em seu texto
-  // incrementa a parir de 0 até o número final
+  // incrementa a partir de 0 até o número final
   static incrementarNumero(numero) {
     const total = +numero.innerText;
     const incremento = Math.floor(total / 100);
@@ -39,7 +39,7 @@ export default class AnimaNumeros {
   }
 
   // Adiciona o MutationObserver para verificar
-  // quando a classe ativa é adicionada ao element target
+  // quando a classe ativo é adicionada ao element target
   addMutationObserver() {
     this.observer = new MutationObserver(this.handleMutation);
     this.observer.observe(this.observerTarget, { attributes: true });

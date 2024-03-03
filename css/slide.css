@@ -23,7 +23,7 @@
 
   border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0,.4);
+  box-shadow: 0 2px 4px rgba(0,0,0,.4);
   opacity: .8;
   transform: scale(.8);
   transition: .4s;
@@ -49,7 +49,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin: 2px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0,.5);
+  box-shadow: 0 2px 2px rgba(0,0,0,.5);
   transition: .3s;
 }
 
