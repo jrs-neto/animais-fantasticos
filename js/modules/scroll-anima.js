@@ -1,4 +1,4 @@
-import debounce from './debounce';
+import debounce from './debounce.js';
 
 export default class ScrollAnima {
   constructor(sections) {
@@ -41,7 +41,7 @@ export default class ScrollAnima {
     return this;
   }
 
-  // Remove o eent de scroll
+  // Remove o event de scroll
   stop() {
     window.removeEventListener('scroll', this.checkDistance);
   }
