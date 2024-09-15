@@ -6,6 +6,8 @@
 
 [Clique aqui](https://jrs-neto.github.io/animais-fantasticos/) para uma breve demonstração do Website.
 
+![Animais Fantasticos](./img/screenshot.gif)
+
 ## Introdução
 
 Seguindo instruções precisas, este projeto demonstra domínio de desenvolvimento front-end com JavaScript, demonstrando criatividade e aplicação prática de conhecimentos de programação. Com cada script sendo desenvolvido do zero, como um modal de login, um menu suspenso para ajudar a navegação entre diferentes seções e uma rolagem suave com animações para aprimorar a experiência do usuário. Uma lista de perguntas frequentes (FAQ) também é implementada com um sistema mostrar/ocultar usando JavaScript.
